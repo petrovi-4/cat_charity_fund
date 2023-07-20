@@ -1,0 +1,8 @@
+{
+    "workbench.settings.editor": "json",
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active"
+}
