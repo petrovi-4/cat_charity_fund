@@ -1,1 +1,31 @@
-Generic single-database configuration with an async dbapi.
+## Команды для работы с alembic
+**Создание миграции**
+
+```
+alembic revision --autogenerate -m "Описание миграции"
+```
+**Применение всех миграций**
+
+```
+alembic upgrade head
+```
+**Откат последней миграции**
+
+```
+alembic downgrade -1
+```
+**Отображение текущего состояния базы данных**
+
+```
+alembic current
+```
+**Просмотр истории миграции**
+
+```
+alembic history
+```
+**Создание пустой базы данных для дальнейшей миграции**
+
+```
+alimbic init <название_директории>
+```
