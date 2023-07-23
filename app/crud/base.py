@@ -47,4 +47,3 @@ class CRUDBase(Generic[ModelType, CreateSchemaType]):
             )
         )
         return db_objs.scalars().all()
-  
